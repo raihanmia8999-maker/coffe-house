@@ -1,0 +1,23 @@
+*{
+  margin: 5px;
+  padding: 5px;
+    text-decoration: none;
+}
+.navigation{
+ background-color: aquamarine; font-family: sans-serif; 
+}
+.navbar{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 40px; font-weight: 500; color: white;
+}
+li{
+    list-style: none; display: inline-block; color: #2596be; 
+}
+button{
+    background-color: aliceblue; border: none; border-radius: 5px; padding: 10px;
+}
+button a{
+    color: black; font-size: 15px; text-align: center; text-transform: uppercase;
+}
