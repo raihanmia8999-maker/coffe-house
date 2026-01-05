@@ -1,23 +1,73 @@
-*{
-  margin: 5px;
-  padding: 5px;
+nav{
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+}
+nav a{
+    margin: 25px;
+    font-size: 2em;
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
 }
-.navigation{
- background-color: aquamarine; font-family: sans-serif; 
-}
-.navbar{
-    display: flex; align-items: center; justify-content: space-between;
-}
-.logo a{
-    font-size: 40px; font-weight: 500; color: white;
+nav ul{
+    display: flex;
 }
 li{
-    list-style: none; display: inline-block; color: #2596be; 
+    list-style: none;
+    margin: 10px;
+
 }
-button{
-    background-color: aliceblue; border: none; border-radius: 5px; padding: 10px;
+body{
+    max-width: 1270px;
+    background-color: bisque;
+    margin: 0 auto;
 }
-button a{
-    color: black; font-size: 15px; text-align: center; text-transform: uppercase;
+.hero-conteiner{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
 }
+.hero-conteiner img{
+    width: 600px;
+    height: 400px;
+}
+.hero-conteiner button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: aqua;
+}
+.hero-conteiner button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+.card-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    background-color:white;
+    border: solid antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.25em;
+    color: white;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+    
